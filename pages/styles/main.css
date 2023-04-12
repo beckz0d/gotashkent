@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body {
+	margin: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box ;
+}
+.desktop-1920 {
+	/*width: 1920px;*/
+	/*height: 1375px;*/
+	margin: 0 auto;
+}
+@font-face {
+	font-family: 'Black Acute';
+	src: url("../../accets/fonts/black_acute/BlackAcute.ttf") format("truetype");
+}
+
+
+.header-page {
+	width: 1920px;
+	height: 1375px;
+	padding: 50px;
+}
+.main-page {
+	background: url("../../accets/images/star_chart-uhd-8k-wallpaper.jpg") no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 1375px;
+	top: 0;
+	margin: 0 auto;
+	padding: 50px 36px 0 40px;
+}
+
+.adv-banner {
+	width: 1844px;
+	height: 154px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.adv-title {
+	font-family: 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 80px;
+	color: rgba(205, 205, 205, 0.3);
+	margin: 0 auto;
+}
+
+
+
+
+
+.header {
+	width: 1844px;
+	height: 172px;
+	padding: 28px 35px 0 87px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.logo {
+	width: 243px;
+	height: 112px;
+}
+.logo-vec {
+	width: 243px;
+	height: 112px;
+	display: flex;
+}
+.logo-vec-2 {
+	color: #FE0000;
+
+}
+
+.logo-vec-1 {
+	width:	76.69px;
+	height:	14.66px;
+	position: absolute;
+	margin: 51px 89px 42px 37px;
+	
+}
+
+
+
+.logo-title {
+	font-family: 'Press Start 2P', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	color: #FAFAFA;
+	mix-blend-mode: normal;
+	opacity: 0.7;
+	margin: 0;
+	position: absolute;
+	padding: 52px 20px 48px 120px;
+	transition: all .5s ease;
+}
+.logo-title:hover {
+	opacity: 1;
+}
+.logo-nav {
+	display: flex;
+	width: 235px;
+	justify-content: space-between;
+	fill: #FE0000;
+	fill-opacity: 0.7;
+}
+
+.soc-list {
+	fill: #FE0000;
+	fill-opacity: 0.7;
+	transition: all .5s ease;
+}
+svg path{
+	fill: inherit;
+	stroke: inherit;
+	stroke-width: inherit;
+}
+.logo-nav {
+	transition: all .5s ease;
+}
+.logo-nav:hover, .soc-list:hover {
+	fill: #FE0000;
+	fill-opacity: 1;
+}
+
+.navigation {
+	width: 530px;
+	height: 28px;
+}
+
+.nav-menu {
+	width: 100%;
+	display: flex;
+	padding: 0;
+	justify-content: space-between;
+}
+.nav-list-active {
+	font-family: 'Black Acute', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 170.5%;
+	letter-spacing: 2.5px;
+	color: #FAFAFA;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	list-style: none;
+}
+.nav-list-contacts {
+	font-family: 'Black Acute', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 170.5%;
+	letter-spacing: 2.5px;
+	color: #CDCDCD;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	list-style: none;
+}
+
+.nav-list-media {
+	font-family: 'Black Acute', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 170.5%;
+	letter-spacing: 2.5px;
+	color: #CDCDCD;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.nav-list-stat {
+	font-family: 'Black Acute', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 170.5%;
+	letter-spacing: 2.5px;
+	color: #CDCDCD;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	list-style: none;
+}
+.nav-list-active {
+	border-bottom: 3px solid rgba(254, 0, 0, 0.6);
+	transition: all .5s ease;
+}
+
+.nav-list-stat:hover, .nav-list-media:hover, .nav-list-contacts:hover {
+	color: #FAFAFA;
+	border-bottom: 3px solid rgba(254, 0, 0, 0.6);
+	transition: all .3s ease;
+}
+
+.social {
+	width: 212px;
+	height: 69px;
+}
+.soc-menu {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+
+
+.news-section {
+	width: 610px;
+	height: 950px;
+	display: flex;
+	margin: 0 auto;
+}
+.news-content {
+	width: 1839px;
+	height: 950px;
+	display: flex;
+	margin: 0 auto;
+}
+
+.main-content {
+	width: 1213px;
+	height: 950px;
+	display: flex;
+	margin: 0 auto;
+}
+
+
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+	.main-background {
+		max-width: 100%;
+	}
+}
